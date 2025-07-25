@@ -4,6 +4,10 @@
 
 A Model Context Protocol (MCP) server for the OnSecurity API that allows Claude to query rounds, findings, prerequisites and notifications.
 
+<a href="https://glama.ai/mcp/servers/@onsecurity/onsecurity-mcp-server">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@onsecurity/onsecurity-mcp-server/badge" alt="OnSecurity Server MCP server" />
+</a>
+
 ## Installation
 
 ### Installing via Smithery
@@ -21,7 +25,6 @@ cd onsecurity-mcp-server
 npm run build
 
 ```
-
 
 Add the following to your Claude Desktop configuration file (adjust the paths as needed) and choose UAT or Prod:
 ```bash
@@ -57,10 +60,9 @@ Once configured, Claude will have access to the following tools:
 - Give me a summary of my most recent pentest/scan.
 - Show me trends across my pentests as a graph.
 - What can I address to make the most impact most quickly on my most recent pentest?
-- I would like summaries for different types of stakeholders on the state of our recent pentest engagemenets - eg high level, technical, managerial etc
-- Do I need to action anything to prevent test getting held up?
+- I would like summaries for different types of stakeholders on the state of our recent pentest engagements - eg high level, technical, managerial etc
+- Do I need to action anything to prevent tests getting held up?
 - Are there any new findings?
 - What are the top 10 most common findings across pentests and scans.
-
 
 *Note: It is useful sometimes to configure Claude to "Extended thinking" for some questions.*
